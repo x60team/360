@@ -2,32 +2,33 @@
 
 Конспекты лекций и практические работы группы. Всё лежит в одной ветке `main`, предметы разделены папками.
 
+## Предметы
+
+- [1C](1C/)
+- [english_1](english_1/)
+- [english_2](english_2/)
+- [KS](KS/)
+- [mobile](mobile/)
+- [OC](OC/)
+- [pravo](pravo/)
+- [programm_modules](programm_modules/)
+- [testing](testing/)
+- [unity](unity/)
+- [web](web/)
+
 ## Структура
 
+Каждый предмет устроен одинаково:
+
 ```
-notes/                  конспекты в Markdown
-  <дисциплина>/
+<предмет>/
+  README.md             что это за предмет, ссылки на крупные проекты
+  notes/                конспекты в Markdown
     01-тема.md
-    assets/             картинки к конспектам этой дисциплины
-practice/               практические работы
-  mobile/
-  web/
-  testing/
-  unity/
+    assets/             картинки к конспектам
+  practice/             практические работы
+    lab-01/
 ```
-
-### Конспекты
-
-- [Внедрение и поддержка КС](notes/Внедрение%20и%20поддержка%20КС/)
-- [Разработка программных модулей](notes/Разработка%20программных%20модулей/)
-- [Тестирование программных модулей](notes/Тестирование%20программных%20модулей/)
-
-### Практика
-
-- [mobile](practice/mobile/) — Android, Jetpack Compose
-- [web](practice/web/)
-- [testing](practice/testing/) — pytest
-- [unity](practice/unity/)
 
 ## Как пользоваться
 
@@ -38,7 +39,7 @@ git clone git@github.com:x60team/360.git
 git pull            # забрать свежие изменения
 ```
 
-Папку `notes/` можно открыть как хранилище Obsidian.
+Корень репозитория можно открыть как хранилище Obsidian.
 
 ## Как добавить своё
 
