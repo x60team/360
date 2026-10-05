@@ -1,0 +1,54 @@
+# ОС и редакторы
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+.idea/
+.vscode/
+*.iml
+
+# Obsidian: личное состояние рабочего пространства
+.obsidian/workspace*.json
+.obsidian/cache
+.trash/
+
+# Временные файлы Office
+~$*
+.~lock.*#
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Node
+node_modules/
+dist/
+
+# Android / Gradle
+.gradle/
+build/
+local.properties
+*.apk
+*.aab
+captures/
+.cxx/
+
+# Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+*.csproj
+*.sln
+*.unitypackage
+
+# Секреты
+.env
+*.keystore
+*.jks
